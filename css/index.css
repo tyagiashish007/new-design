@@ -1,0 +1,259 @@
+/*
+Template Name:Architecture
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************center_home****************/
+
+.carousel>.carousel-inner>.item>.circleElement {
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 11%;
+    left: 39%;
+    width: 400px;
+    height: 400px;
+    opacity: .5;
+}
+.center_home .carousel-indicators li { cursor: pointer }
+.center_home .carousel-control {
+    width: 60px;
+    height: 0;
+    margin-top:20%;
+    font-size: 100px;
+    background: none;
+    border: none;
+    font-weight: 300;
+}
+.carousel-indicators li {
+    background-color: #999;
+    background-color: rgba(255,255,255,0.3);
+}
+.carousel-caption {
+    padding: 20px 15px 20px 15px;
+	background:#00000091;
+	bottom:0;
+	text-align:left;
+}
+.carousel-caption h3 {
+   color:#a58838;
+}
+.carousel-caption h1 {
+   color:#fff;
+}
+.carousel-caption p {
+    font-weight: 300;
+    line-height: 25px;
+	color:#fff;
+}
+.carousel-caption ul li {
+display:inline-block;
+margin-right:20px;
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active { opacity: 1 }
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right { opacity: 1 }
+.carousel-fade .carousel-control { z-index: 11 }
+@media only screen and (max-width:767px) { 
+    .carousel-caption {
+        padding: 15px;
+     }
+    .carousel-caption h4 { font-size: 30px }
+    .carousel-caption p {
+        margin-top: 10px;
+        font-size: 10px;
+        margin-bottom: -10px;
+    }
+    .carousel { margin-bottom: 0 }
+    .hero-unit { padding-bottom: 60px }
+    .hero-unit p { font-size: 16px }
+
+.carousel-container {
+    width: 80% !important;
+    padding-left: 10%;
+    margin-top: 35px;
+}
+}
+.carousel-caption_1{
+height:55%;
+width:45%;
+left:15%;
+top:25%;
+  }
+.center_home img{
+margin-top:0;
+width:100%;  
+  }
+/*********************center_home****************/
+
+
+/*********************testi_home****************/
+#testi_home{
+  padding-top:40px;
+  padding-bottom:40px;
+  }
+.testi_home_2{
+  background:#f4f4f4;
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:40px 15px;
+  margin-top:30px;
+  }
+.testi_home_2 span i{
+color:#a58838;
+font-size:26px;  
+  }
+.testi_home_2i{
+ margin-top:20px; 
+ width:35%;
+ margin-left:auto;
+ margin-right:auto;
+  }
+/*********************testi_home_end****************/
+
+/*********************about_last****************/
+#about_last{
+ background:#fafafa; 
+  }
+.about_last_l{
+ padding-top:32%;
+ padding-left:30px;
+ padding-right:30px; 
+  }
+.design_l2{
+padding-top:33%;  
+  }
+/*********************about_last_end****************/
+
+@media screen and (max-width : 767px){
+.quality_1{
+margin-top:40px;
+margin-bottom:40px; 
+ }
+.carousel-fade img{
+ min-height:400px; 
+  }
+.carousel-caption_1{
+ width:100%;
+ left:0; 
+ bottom:0;
+ text-align:center;
+ height:85%;
+ top:7%;
+  position:static;
+  }
+.carousel-caption h3{
+font-size:18px; 
+ }
+.carousel-caption h1{
+font-size:28px; 
+ }
+.carousel-caption p{
+font-size:14px; 
+ }
+.carousel-caption ul li{
+font-size:14px; 
+ }
+.carousel-caption .button{
+padding:10px;
+ }
+.carousel-caption .button_1{
+padding:10px;
+ }
+.testi_home_2i{
+ width:100%;
+ }
+.testi_home_2i img{
+margin-bottom:10px;
+ }
+#about_last{
+text-align:center; 
+ }
+.about_last_l{
+ padding-top:20px;
+ padding-bottom:20px;
+ }
+#design_last{
+margin-top:20px;  
+  }
+.design_l2{
+padding-top:20px;  
+padding-bottom:20px; 
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.carousel-fade img{
+ min-height:680px; 
+  }
+.carousel-caption h1{
+font-size:30px;  
+  }
+.carousel-caption h3{
+font-size:22px;  
+  }
+.carousel-caption .button{
+padding:10px;  
+  }
+.carousel-caption .button_1{
+padding:10px;  
+  }
+.center_home .carousel-control{
+ margin-top:35%;
+ }
+.quality_1{
+ width:100%;
+ }
+.testi_home_2i{
+ width:40%;
+ }
+.about_last_r img{
+  min-height:550px;
+ }
+.design_l1  img{
+  min-height:400px;
+ }
+.design_l2 h1{
+ font-size:32px;
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.carousel-fade img{
+ min-height:680px; 
+  }
+.carousel-caption h1{
+font-size:40px;  
+  }
+.center_home .carousel-control{
+ margin-top:35%;
+ }
+.about_last_r img{
+  min-height:550px;
+ }
+.design_l1  img{
+  min-height:400px;
+ }
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+

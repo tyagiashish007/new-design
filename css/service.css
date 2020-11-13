@@ -1,0 +1,63 @@
+/*
+Template Name:Architecture
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************service****************/
+.center_service {
+    background-image: url(../img/33.jpg);
+	background-position:center;
+}
+.center_about_m{
+ padding-top: 300px;
+ padding-bottom: 200px;
+ background: #00000091; 
+  }
+#servive_page{
+  padding-top:50px;
+  padding-bottom:20px;
+  background:#f4f4f4;
+  }
+.servive_p_1i1{
+  background:#fff;
+  padding:20px 15px 25px 15px;
+  }
+
+.servive_p_1i1:after {
+    border-width: 0 3px 3px 0;
+    bottom: 0;
+    right: 14px;
+	border-color: #a58838;
+	content: "";
+    border-style: solid;
+    height: 8%;
+    position: absolute;
+    width: 8%;
+}
+.servive_p_1{
+ margin-bottom:30px; 
+  }
+/*********************service_end****************/
+
+
+@media screen and (max-width : 767px){
+.servive_p_1i {
+ margin-bottom:15px;
+ text-align:center;
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
+
+
+
